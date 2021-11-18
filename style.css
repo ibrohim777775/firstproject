@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+.page{
+    display: flex;
+    background-color: #f1f1f1;
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.movie{
+    display: flex;
+    overflow-x: auto;
+}
+.movie div{
+    margin-right: 25px;
+}
+.header{
+    width: 100%;
+    background-color: rgb(127, 136, 255);
+    height: 85px;
+    display: flex;
+    /* text-align: center; */
+    font-size: 8vh;
+    font-weight: 600;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+}
